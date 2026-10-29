@@ -74,7 +74,7 @@ h1 span { color: #2bad68; }
 @media (max-width: 1100px) {
   .navbar nav { gap: 20px; }
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .solution { gap: 32px; padding-block: 80px; }
+  .solution { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; padding-block: 80px; }
   .card { padding: 36px 24px; min-height: 280px; }
   .social { margin-right: 0; }
 }
