@@ -1,26 +1,36 @@
-#Knowledge-Vault
+# Knowledge Vault
 
-A responsive landing page built with HTML5 and CSS3.
+A responsive landing page for a personal knowledge management concept: a space to organize notes, connect ideas, and turn learning into lasting knowledge.
 
-## Features
+**[View Live Demo →](https://devbyabir.github.io/knowledge-vault/)**
 
-- Navigation and hero banner
-- Four notes/problem cards
-- Second Brain solution and benefits
-- Early access section
-- Footer with social links
-- Responsive layouts, button hover effects and keyboard focus states
+## What you will see
+
+- An introduction to the Knowledge Vault concept
+- Four common challenges with notes and saved information
+- A Second Brain section explaining structured learning
+- An early-access call to action and social links
+- Layouts adapted for desktop, tablet, and mobile screens
+
+## Built with
+
+HTML5 and CSS3, using Flexbox, Grid, hover effects, and keyboard focus states. No JavaScript, frameworks, or external CSS libraries.
 
 ## Run locally
 
-Open `index.html` in a browser. No installation or build step required.
+Download or clone this repository, then open `index.html` in your browser. No installation or build step is required.
 
-## Technologies
+## Project structure
 
-HTML5 and CSS3 only. No JavaScript, frameworks or CSS libraries.
+```text
+knowledge-vault/
+├── index.html
+├── styles.css
+└── assets/
+```
 
-## GitHub Pages
+## About the demo
 
-Publish the `main` branch from `/(root)`. All assets use relative paths.
+This project is a static landing page. The early-access button opens an informational notice; account registration and note storage are not connected to a backend.
 
-The early-access action displays a CSS-only demo notice; registration is not connected to a service.
+Hosted on [GitHub Pages](https://devbyabir.github.io/knowledge-vault/).
